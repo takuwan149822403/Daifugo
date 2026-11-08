@@ -1,0 +1,47 @@
+# このファイルはPyGame/直下に置き、配下全体に適用する。
+# ソース・テスト・ドキュメント・画像・フォント・再ビルド用ファイルは登録する。
+
+# Pythonの実行・テストで生成されるファイル
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+.cache/
+
+# ローカルのPython環境
+.venv*/
+venv/
+env/
+.python-runtime/
+
+# 実行ファイル・ビルド中間物・画面プレビュー
+/obj/
+/build/
+/dist/
+*.spec
+
+# ローカル設定・認証情報
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.codex/
+.agents/
+.idea/
+.vscode/
+
+# OS・エディターの一時ファイル
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*.swo
+*~

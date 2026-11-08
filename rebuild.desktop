@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=大富豪を再ビルド
+Comment=環境の準備、テスト、ビルド、起動確認を実行します
+Exec=bash -c "exec bash \\"\\$(dirname \\"\\$1\\")/rebuild.sh\\" --pause" rebuild %k
+Icon=system-run
+Terminal=true
+Categories=Development;
